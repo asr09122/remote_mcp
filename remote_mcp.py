@@ -1,7 +1,7 @@
 import random
 from fastmcp import FastMCP
 
-mcp = FastMCP(name='demo_server')
+mcp = FastMCP(name='remote_server')
 
 @mcp.tool
 def roll_dice(n: int) -> list[int]:
